@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Salsabila Prita Afiyanti</title>
+    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <style>
+        html { scroll-behavior: smooth; scroll-padding-top: 75px; }
+        body { padding-top: 70px; }
+        h2, h3 { color: darkslateblue; }
+        .table-header th { background-color: darkslateblue; color: #fff; }
+        section { margin-bottom: 2.5rem; }
+    </style>
+</head>
+<body>
+
+<!-- Navigasi -->
+<nav class="navbar navbar-expand-lg bg-warning fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#beranda">Salsabila Prita</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuUtama" aria-controls="menuUtama" aria-expanded="false" aria-label="Buka menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menuUtama">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#beranda">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#profil">Tentang Saya</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#pendidikan">Pendidikan</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Unduh</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Ijazah</a></li>
+            <li><a class="dropdown-item" href="#">Sertifikat</a></li>
+            <li><a class="dropdown-item" href="#">Dokumentasi</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Kerja Praktek</a></li>
+            <li><a class="dropdown-item" href="#">Seminar</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Cari">
+        <button class="btn btn-outline-success" type="submit">Pencarian</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+
+    <!-- Beranda: logo di kiri, teks di kanan -->
+    <header id="beranda" class="row align-items-center my-3">
+        <div class="col-auto pe-2">
+            <img src="Gambar/Logo_udinus1.jpg" class="img-fluid img-thumbnail" alt="Logo Udinus" style="max-width: 130px;">
+        </div>
+        <div class="col ps-1">
+            <h1 class="h3 mb-1">PORTOFOLIO SALSABILA</h1>
+            <h6 class="text-muted">Program Studi Sistem Informasi &ndash; Universitas Dian Nuswantoro</h6>
+            <p class="mb-0">Halo! Saya Salsabila Prita Afiyanti, mahasiswa Sistem Informasi yang tertarik pada bisnis dan teknologi. Selamat datang di portofolio saya.</p>
+        </div>
+        <hr class="mt-3">
+    </header>
+
+    <!-- Profil -->
+    <section id="profil">
+        <h2>A. Profil Saya</h2>
+        <div class="row align-items-start">
+            <div class="col">
+                <p>Nama saya Salsabila Prita Afiyanti, mahasiswa aktif program studi Sistem Informasi di Fakultas Ilmu Komputer. Saya tertarik pada bidang bisnis dan senang merancang ide bisnis baru.</p>
+                <p>Selama kuliah, saya terus meningkatkan pengetahuan dan keterampilan lewat berbagai tugas dan proyek. Saya senang mempelajari hal baru dan mengembangkan teknologi yang membantu bisnis dan mempermudah penyelesaian masalah di dunia bisnis.</p>
+                <p>Halaman ini dibuat dengan HTML5 dan Bootstrap sebagai latihan memahami dasar-dasar pengembangan web.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pendidikan -->
+    <section id="pendidikan">
+        <h2>B. Riwayat Pendidikan</h2>
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped align-middle">
+                <thead class="table-header">
+                    <tr>
+                        <th>Tingkat Pendidikan</th>
+                        <th>Nama Instansi / Sekolah</th>
+                        <th>Tahun</th>
+                        <th>Keterangan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sekolah Dasar (SD)</td>
+                        <td>SD Mondial</td>
+                        <td>2013 - 2019</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Sekolah Menengah Pertama (SMP)</td>
+                        <td>SMP N 5 Semarang</td>
+                        <td>2019 - 2022</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Sekolah Menengah Atas (SMA)</td>
+                        <td>SMA N 1 Bergas</td>
+                        <td>2022 - 2025</td>
+                        <td>Jurusan MIPA</td>
+                    </tr>
+                    <tr>
+                        <td>Perguruan Tinggi (S1)</td>
+                        <td><a href="http://www.dinus.ac.id" target="_blank" rel="noopener">Universitas Dian Nuswantoro</a></td>
+                        <td>2025 - Sekarang</td>
+                        <td>Sistem Informasi</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Keahlian & Hobi -->
+    <section id="keahlian">
+        <h2>C. Keahlian &amp; Hobi</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="h5">1. Keahlian Utama</h3>
+                <ul>
+                    <li>Melukis dan mewarnai</li>
+                    <li>Mengarang puisi</li>
+                    <li>Pemodelan sistem (DFD, ERD, BPMN)</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3 class="h5">2. Hobi &amp; Minat</h3>
+                <ol>
+                    <li>Berimajinasi</li>
+                    <li>Belajar dasar berbagai bahasa</li>
+                    <li>Membaca dan menulis cerita</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sertifikat -->
+    <section id="sertifikat">
+        <h2>D. Sertifikat</h2>
+        <div class="row g-3">
+            <div class="col-12 col-md-4">
+                <div class="card h-100">
+                    <img src="images/fotoku.jpg" class="card-img-top" alt="Sertifikat 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Sertifikat 1</h5>
+                        <p class="card-text">Ganti dengan nama sertifikat dan tahunnya.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card h-100">
+                    <img src="images/fotoku.jpg" class="card-img-top" alt="Sertifikat 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Sertifikat 2</h5>
+                        <p class="card-text">Ganti dengan nama sertifikat dan tahunnya.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyek -->
+    <section id="proyek">
+        <h2>E. Proyek &amp; Aktivitas Akademik</h2>
+        <article class="card card-body mb-3">
+            <h3 class="h5">Tugas Pemrograman Web 1</h3>
+            <p class="mb-0">Pembuatan halaman profil dan form interaktif menggunakan elemen semantik HTML, tabel terstruktur, dan beberapa elemen input form.</p>
+        </article>
+        <aside class="alert alert-warning">
+            <strong>Catatan Kampus:</strong> Jadwal perkuliahan dan kurikulum dapat dilihat di portal
+            <a href="https://mhs.dinus.ac.id" target="_blank" rel="noopener" class="alert-link">Siadin Udinus</a>.
+        </aside>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak">
+        <h2>F. Form Kontak Pengunjung</h2>
+        <p>Isi form berikut untuk mengirim pesan:</p>
+        <form action="simpan.php" method="post" class="col-lg-7 px-0">
+            <div class="mb-3">
+                <label for="fnama" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="fnama" name="fnama" required>
+            </div>
+            <div class="mb-3">
+                <label for="femail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="femail" name="femail" required>
+            </div>
+            <div class="mb-3">
+                <span class="form-label d-block">Jenis Kelamin</span>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" id="pria" name="fjkel" value="Pria">
+                    <label class="form-check-label" for="pria">Pria</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" id="wanita" name="fjkel" value="Wanita">
+                    <label class="form-check-label" for="wanita">Wanita</label>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="fprodi" class="form-label">Program Studi</label>
+                <select class="form-select" id="fprodi" name="fprodi">
+                    <option value="" selected disabled>-- Pilih Program Studi --</option>
+                    <option value="SI">Sistem Informasi</option>
+                    <option value="TI">Teknik Informatika</option>
+                    <option value="DKV">Desain Komunikasi Visual</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <span class="form-label d-block">Hobi / Minat</span>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="traveling" name="fhobi[]" value="Bepergian">
+                    <label class="form-check-label" for="traveling">Bepergian</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="reading" name="fhobi[]" value="Membaca">
+                    <label class="form-check-label" for="reading">Membaca</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="watching" name="fhobi[]" value="Menonton">
+                    <label class="form-check-label" for="watching">Menonton</label>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="fpesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="fpesan" name="fpesan" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning">Kirim Pesan</button>
+            <button type="reset" class="btn btn-outline-secondary">Batal</button>
+        </form>
+    </section>
+
+    <hr>
+    <footer class="text-center text-muted pb-4">
+        &copy; 2026 Salsabila Prita Afiyanti &ndash; Sistem Informasi, Universitas Dian Nuswantoro
+    </footer>
+
+</div>
+
+<script src="/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
